@@ -9,6 +9,10 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-seccion: #EAF2FD;
+   --cor-de-rodapie: #FFFFFF;
+   --cor-de-fonts: #464646;
+   --cor-de-botton: #2A7AE4;
 }
 
 body {
