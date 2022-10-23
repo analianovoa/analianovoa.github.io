@@ -1,0 +1,12 @@
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    margin: 0 0 0 50px;
+}
+
+.menu__list__item__contacto {
+    margin: 0 0 0 20px;
+    font-weight: bold;
+}
