@@ -1,0 +1,23 @@
+.about {
+    grid-area: about;
+    background-color: var(--cor-de-seccion); 
+    padding: 1rem 1rem 1rem 1rem; 
+    
+    text-align:justify;
+}
+.about__container {
+    padding-right: 50%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .about__container {
+        padding-right: 0;
+    }
+    }
+@media only screen and (max-width: 425px) {
+    .about__container {
+        padding-right: 0;
+    }
+}
