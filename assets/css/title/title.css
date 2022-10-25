@@ -6,6 +6,7 @@
 .title__div { 
     display: flex;
     justify-content: space-between;
+    line-height: normal;
 }
 .title__subsection {
     font-weight: 400;

@@ -1,9 +1,9 @@
 .about {
     grid-area: about;
     background-color: var(--cor-de-seccion); 
-    padding: 1rem 1rem 1rem 1rem; 
-    
+    padding: 1rem 1rem 1rem 1rem;     
     text-align:justify;
+    line-height: normal;
 }
 .about__container {
     padding-right: 50%;
