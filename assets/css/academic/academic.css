@@ -1,0 +1,33 @@
+.academic {
+    grid-area: academic;
+    background: var(--cor-de-seccion);
+    
+}
+.academic__title {
+    text-align: center;
+}
+.academic__courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 5rem 0 5rem;
+    text-align: center;
+}
+.academic__courses__list{
+    text-align: center;
+    padding: 0;   
+}
+.academic__courses__item__img{
+    background: var(--cor-de-rodapie);
+    padding: 4rem;
+}
+.academic__courses__box{
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .academic__courses {
+        flex-direction: column;
+        padding: 0 2rem 0 2rem;
+    }
+}
