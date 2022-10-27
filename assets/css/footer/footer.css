@@ -1,11 +1,10 @@
 .footer {
     grid-area: footer;
-
 }
+
 .footer__rodape {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 1rem;
-  color: var(--cor-de-fonts);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
 }

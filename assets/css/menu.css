@@ -8,15 +8,16 @@
 
 /*Tablet*/
 @media only screen and (max-width: 768px) {
-    .menu{
+    .menu {
         padding: 0 1 rem 0 1rem;
         margin: 0;
         justify-content: space-between;
-        
+
     }
+
     .menu__list__item {
         display: none;
-    }    
+    }
 }
 
 /*Mobile*/
@@ -25,9 +26,11 @@
         margin: 0;
         padding: 0 1 rem 0 1rem;
     }
+
     .menu__list__item {
         display: none;
     }
+
     .menu__list__item__contacto {
         font-weight: 400;
     }

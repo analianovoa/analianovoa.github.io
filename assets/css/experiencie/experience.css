@@ -1,48 +1,57 @@
 .experience {
     grid-area: experience;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
-.experience__section__title{
+
+.experience__section__title {
     text-align: center;
 }
+
 .experience__box {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 2rem;
     gap: 1rem;
 }
+
 .experience__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .experience__title {
     margin: 1rem 0 1rem 0;
 }
+
 .experience__text {
     font-weight: 400;
     margin: 1rem 0 1rem 0;
 }
+
 .experience__description {
     display: flex;
-    padding: 1rem 1rem 0 0;    
+    padding: 1rem 1rem 0 0;
 }
-.experiencia__botao--repo {    
+
+.experiencia__botao--repo {
     font-size: 20px;
     width: 118px;
     height: 50px;
     border-width: 1px;
     color: var(--cor-de-botton);
-    border-color:var(--cor-de-botton);
+    border-color: var(--cor-de-botton);
     box-shadow: 0 1px 0 #1564ad;
     text-shadow: 0 1px 0 #528ecc;
-    background: linear-gradient(#dddfe1, #B1d2f3);
+    background: linear-gradient(#ffffff, #d1d1d2);
 }
-.experience__botao--repo:hover {
-    background: linear-gradient(#B1d2f3, #dddfe1);
+
+.experiencia__botao--repo:hover {
+    background: linear-gradient(#d1d1d2, #ffffff);
     transition: 2s;
 }
+
 .experience__botao--demo {
     margin-left: 10px;
     font-size: 20px;
@@ -50,14 +59,16 @@
     height: 50px;
     border-width: 1px;
     color: var(--cor-de-rodapie);
-    border-color:var(--cor-de-botton);
+    border-color: var(--cor-de-botton);
     box-shadow: 0 1px 0 #1564ad;
     text-shadow: 0 1px 0 #528ecc;
     background: linear-gradient(#79bbff, #378de5);
 }
+
 .experience__botao--demo:hover {
     background: linear-gradient(#378de5, #79bbff);
 }
+
 .experience__img {
     width: 80vh;
 }
@@ -67,10 +78,12 @@
     .experience__box {
         display: block;
     }
+
     .experience__img {
         width: 100%;
     }
-    }
+}
+
 @media only screen and (max-width: 425px) {
     .experience {
         grid-template-columns: 45% 45%;
