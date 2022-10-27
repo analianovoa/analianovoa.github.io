@@ -1,9 +1,7 @@
 .experience {
     grid-area: experience;
     display: flex;
-    flex-direction: column;
-  
-    
+    flex-direction: column;    
 }
 .experience__section__title{
     text-align: center;
@@ -28,9 +26,7 @@
 }
 .experience__description {
     display: flex;
-    padding: 1rem 1rem 0 0;
-    
-    
+    padding: 1rem 1rem 0 0;    
 }
 .experiencia__botao--repo {    
     font-size: 20px;
